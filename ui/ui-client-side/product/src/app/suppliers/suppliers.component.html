@@ -1,0 +1,19 @@
+<div>
+  <div class="container mt-3">
+  <div class="card">
+      <div class="card-header">Suppliers List</div>
+      <div class="card-body">
+          <table class="table">
+              <tr>
+                  <th>ID</th><th>Name</th><th>Email</th>
+              </tr>
+              <tr *ngFor="let supplier of suppliers">
+                <td>{{supplier.id}}</td>
+                <td>{{supplier.name}}</td>
+                <td>{{supplier.email}}</td>
+            </tr>
+          </table>
+      </div>
+      </div>
+  </div>
+</div>
